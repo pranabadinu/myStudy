@@ -4,8 +4,7 @@ pipeline {
 		stage('Morning') {
 			steps {
 				echo "Jenkins Workspace DIR"
-				def currentDir = pwd()
-				echo currentDir				
+				echo pwd()
 			}
 		}
 		stage('Day') {
