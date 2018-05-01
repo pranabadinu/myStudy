@@ -1,19 +1,19 @@
 pipeline {
 	agent any
 	stages {
-		stage('HI') {
+		stage('Morning') {
 			steps {
 				echo "Jenkins Workspace DIR"
 				def currentDir=pwd()
 				echo currentDir				
 			}
 		}
-		stage('WORK') {
+		stage('Day') {
 			steps {
 				echo "Do Work"
 			}
 		}
-		stage('BYE') {
+		stage('Night') {
 			steps {
 				echo "BYE"
 			}
