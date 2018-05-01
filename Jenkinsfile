@@ -3,7 +3,9 @@ pipeline {
 	stages {
 		stage('HI') {
 			steps {
-				echo "HELLO"
+				echo "Jenkins Workspace DIR"
+				def currentDir=pwd()
+				echo currentDir				
 			}
 		}
 		stage('WORK') {
