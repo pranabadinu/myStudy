@@ -9,7 +9,8 @@ pipeline {
 		}
 		stage('Day') {
 			steps {
-				echo "Do Work"
+				echo "Trigger another Jenkins job named JobThird"
+				build job: 'JobThird'
 			}
 		}
 		stage('Night') {
@@ -19,4 +20,4 @@ pipeline {
 		}
 	}
 }
-			
+			https://github.com/pranabadinu/myStudy.git
