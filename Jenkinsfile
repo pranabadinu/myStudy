@@ -7,7 +7,7 @@ pipeline {
 				echo pwd()
 			}
 		}
-		stage('Day') {
+		stage('DayJob') {
 			steps {
 				echo "Trigger another Jenkins job named JobThird"
 				build job: 'JobThird'
@@ -20,4 +20,3 @@ pipeline {
 		}
 	}
 }
-			https://github.com/pranabadinu/myStudy.git
