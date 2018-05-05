@@ -17,8 +17,7 @@ pipeline {
 		stage('Night') {
 			steps {
 				echo "BYE"
-				echo x
-				echo y
+				foo 'hello'
 			}
 		}
 		stage('ActorName') {
