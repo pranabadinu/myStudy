@@ -1,3 +1,4 @@
+@Library('myStudy') _
 pipeline {
 	agent any
 	stages {
@@ -16,6 +17,11 @@ pipeline {
 		stage('Night') {
 			steps {
 				echo "BYE"
+			}
+		}
+		stage('ActorName') {
+			steps {
+				myVariables 'Pranab'
 			}
 		}
 	}
