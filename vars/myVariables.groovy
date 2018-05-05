@@ -13,3 +13,7 @@ def addition (int a=1, int b=2) {
   echo "Addition is ${a+b}"
 }
 
+def subtraction (int x=10, int y=8) {
+  echo "Subtraction is ${x-y}"
+}
+
