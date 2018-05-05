@@ -6,6 +6,7 @@ pipeline {
 			steps {
 				echo "Jenkins Workspace DIR"
 				echo pwd()
+				subtraction
 			}
 		}
 		stage('DayJob') {
