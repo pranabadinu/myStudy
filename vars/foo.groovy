@@ -8,5 +8,5 @@ def call ( String varName = 'Person' ) {
 }
 
 def display (String country = 'India' ) {
-   echo "Country is India"
+  echo "Country is ${country}"
 }
