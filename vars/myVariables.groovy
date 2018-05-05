@@ -6,6 +6,7 @@ def call( String varName = 'Person' ) {
   echo "Hello. The name of person is, ${varName}."
   //invoke the function
   addition ( 5 , 6 )
+  //invoke function defined in  foo.groovy
   foo.devLang("PYTHON")
 }
 
