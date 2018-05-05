@@ -8,7 +8,7 @@ def call( String varName = 'Person' ) {
   addition ( 5 , 6 )
 }
 
-//arithmetic function
+//arithmetic function. datatype : int
 def addition (int a=1, int b=2) {
   echo "Addition is ${a+b}"
 }
