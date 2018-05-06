@@ -5,7 +5,7 @@ pipeline {
 		stage('Morning') {
 			steps {
 				echo "Jenkins Workspace DIR"
-				commonFunctions ('add')
+				commonFunctions 'add'
 				echo pwd()
 			}
 		}
