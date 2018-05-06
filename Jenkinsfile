@@ -2,6 +2,7 @@
 pipeline {
 	agent any
 	stages {
+		stage('parallelStage starts') {
 		parallel{	
 		stage('Morning') {
 			steps {
@@ -34,6 +35,12 @@ pipeline {
 			   }
 			}
 		}
+		}
+		}
+		stage('Dummy statement') {
+			steps{
+				echo "do nothing"
+			}
 		}
 	}
 }
