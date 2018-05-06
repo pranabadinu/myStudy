@@ -8,6 +8,7 @@ def call( String varName = 'Person' ) {
   addition ( 5 , 6 )
   //invoke function defined in  foo.groovy
   foo.devLang("PYTHON")
+  foo.scriptLang('perl', 'python')
 }
 
 //arithmetic function. datatype : int
