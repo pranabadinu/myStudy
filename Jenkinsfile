@@ -2,6 +2,7 @@
 pipeline {
 	agent any
 	stages {
+		parallel{	
 		stage('Morning') {
 			steps {
 				echo "Jenkins Workspace DIR"
@@ -32,6 +33,7 @@ pipeline {
 			      foo.devLang 'SQL'
 			   }
 			}
+		}
 		}
 	}
 }
