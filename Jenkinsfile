@@ -6,7 +6,7 @@ pipeline {
 			steps {
 				echo "Jenkins Workspace DIR"
 				echo pwd()
-				myVariables 'Tester'
+				reuseFunctions				
 			}
 		}
 		stage('DayJob') {
