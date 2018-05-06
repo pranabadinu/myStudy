@@ -5,7 +5,7 @@
 def call ( String varName = 'Person' ) {
   echo "Hello. The name of person is, ${varName}."
   devLang 'JAVA'
-  scriptLang ( 'shell', 'perl' )
+  //scriptLang ( 'shell', 'perl' )
 }
 
 //function with one arg
