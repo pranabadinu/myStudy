@@ -26,5 +26,12 @@ pipeline {
 				myVariables 'Pranab'
 			}
 		}
+		stage('scriptSectionIntroduce') {
+		  	steps {
+			   script{
+			      foo.devLang 'SQL'
+			   }
+			}
+		}
 	}
 }
